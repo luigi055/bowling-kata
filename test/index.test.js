@@ -18,3 +18,10 @@ Deno.test("should return 150", () => {
 
   expect(result).toBe(150);
 })
+
+Deno.test("should return 190", () => {
+  const result = calculateScore("9/|9/|9/|9/|9/|9/|9/|9/|9/|9/||9")
+
+  expect(result).toBe(190);
+})
+
